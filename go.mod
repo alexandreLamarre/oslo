@@ -1,4 +1,4 @@
-module github.com/OpenSLO/oslo
+module github.com/alexandreLamarre/oslo
 
 go 1.16
 
