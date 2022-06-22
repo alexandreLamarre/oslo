@@ -20,7 +20,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/OpenSLO/oslo/pkg/manifest"
+	"github.com/alexandreLamarre/oslo/pkg/manifest"
 )
 
 // APIVersion is a value of valid apiVersions.

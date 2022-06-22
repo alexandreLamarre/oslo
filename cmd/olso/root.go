@@ -18,8 +18,8 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/OpenSLO/oslo/internal/pkg/fmt"
-	"github.com/OpenSLO/oslo/internal/pkg/validate"
+	"github.com/alexandreLamarre/oslo/internal/pkg/fmt"
+	"github.com/alexandreLamarre/oslo/internal/pkg/validate"
 )
 
 // Execute adds all child commands to the root command and sets flags appropriately.

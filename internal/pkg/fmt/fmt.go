@@ -25,7 +25,7 @@ import (
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v3"
 
-	"github.com/OpenSLO/oslo/internal/pkg/validate"
+	"github.com/alexandreLamarre/oslo/internal/pkg/validate"
 )
 
 // NewFmtCmd returns a new command for formatting a file.

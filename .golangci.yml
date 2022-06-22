@@ -39,7 +39,7 @@ linters-settings:
   goimports:
     # Put imports beginning with prefix after 3rd-party packages,
     # it's a comma-separated list of prefixes.
-    local-prefixes: github.com/OpenSLO/oslo
+    local-prefixes: github.com/alexandreLamarre/oslo
   golint:
     min-confidence: 0
   govet:
@@ -64,7 +64,7 @@ linters-settings:
     sections:
       - standard # Captures all standard packages if they do not match another section.
       - default # Contains all imports that could not be matched to another section type.
-      - prefix(github.com/OpenSLO/oslo) # Groups all imports with the specified Prefix.
+      - prefix(github.com/alexandreLamarre/oslo) # Groups all imports with the specified Prefix.
   revive:
     rules:
       - name: package-comments

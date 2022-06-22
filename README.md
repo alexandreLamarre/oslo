@@ -12,7 +12,7 @@ information also check the website: [openslo.com](https://openslo.com/).
 ### From source
 
 1. Checkout this repository
-1. Install oslo with `go get github.com/OpenSLO/oslo`
+1. Install oslo with `go get github.com/alexandreLamarre/oslo`
 
 ### Homebrew
 
@@ -39,5 +39,5 @@ Right now, the only function is `validate`, which you can call with `oslo valida
 
 To test out the features of oslo, from the root of the project run
 `oslo validate test/valid-service.yaml`
-That will validate against a valid yaml file.  There are other files in that
+That will validate against a valid yaml file. There are other files in that
 directory to test out the functionality of `oslo`

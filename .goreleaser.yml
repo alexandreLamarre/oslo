@@ -22,7 +22,7 @@ brews:
       name: homebrew-OpenSLO
       token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
     folder: Formula
-    homepage: https://github.com/OpenSLO/oslo
+    homepage: https://github.com/alexandreLamarre/oslo
     install: bin.install "oslo"
     commit_author:
       name: goreleaserbot

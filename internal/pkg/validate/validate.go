@@ -29,9 +29,9 @@ import (
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v3"
 
-	"github.com/OpenSLO/oslo/pkg/manifest"
-	v1 "github.com/OpenSLO/oslo/pkg/manifest/v1"
-	"github.com/OpenSLO/oslo/pkg/manifest/v1alpha"
+	"github.com/alexandreLamarre/oslo/pkg/manifest"
+	v1 "github.com/alexandreLamarre/oslo/pkg/manifest/v1"
+	"github.com/alexandreLamarre/oslo/pkg/manifest/v1alpha"
 )
 
 var (
