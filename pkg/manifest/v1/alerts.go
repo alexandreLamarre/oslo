@@ -91,12 +91,12 @@ type AlertPolicyNotificationTarget struct {
 
 // AlertPolicySpec is the specification of an alert policy.
 type AlertPolicySpec struct {
-	Description         string                          `yaml:"description,omitempty" validate:"max=1050,omitempty" example:"Alert policy for cpu usage breaches, notifies on-call devops via email"` //nolint:lll
-	AlertWhenNoData     bool                            `yaml:"alertWhenNoData"`
-	AlertWhenBreaching  bool                            `yaml:"alertWhenBreaching"`
-	AlertWhenResolved   bool                            `yaml:"alertWhenResolved"`
-	Conditions          []AlertPolicyCondition          `yaml:"conditions" validate:"required,len=1,dive"`
-	NotificationTargets []AlertPolicyNotificationTarget `yaml:"notificationTargets" validate:"required,dive"`
+	Description         string                    `yaml:"description,omitempty" validate:"max=1050,omitempty" example:"Alert policy for cpu usage breaches, notifies on-call devops via email"` //nolint:lll
+	AlertWhenNoData     bool                      `yaml:"alertWhenNoData"`
+	AlertWhenBreaching  bool                      `yaml:"alertWhenBreaching"`
+	AlertWhenResolved   bool                      `yaml:"alertWhenResolved"`
+	Conditions          []AlertPolicyCondition    `yaml:"conditions" validate:"required,len=1,dive"`
+	NotificationTargets []AlertNotificationTarget `yaml:"notificationTargets" validate:"required,dive"`
 }
 
 // Kind returns the name of this type.

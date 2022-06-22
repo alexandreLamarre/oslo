@@ -52,7 +52,7 @@ type SLOSpec struct {
 	// We dont make clear in the spec if this is a ref or inline.
 	// We will make it a ref for now.
 	// https://github.com/OpenSLO/OpenSLO/issues/133
-	AlertPolicies []string `yaml:"alertPolicies" validate:"dive"`
+	AlertPolicies []AlertPolicy `yaml:"alertPolicies" validate:"dive"`
 }
 
 // SLO struct which mapped one to one with kind: slo yaml definition, external usage.
